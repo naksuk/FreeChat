@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0203E7982626F9D20022675B /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7972626F9D20022675B /* UIColor-Extension.swift */; };
+		0203E7A22626FC8F0022675B /* ChatRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7A12626FC8F0022675B /* ChatRoom.storyboard */; };
+		0203E7A92626FD230022675B /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7A82626FD230022675B /* ChatRoomViewController.swift */; };
+		0203E7AC262700F80022675B /* ChatRoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7AB262700F80022675B /* ChatRoomTableViewCell.xib */; };
+		0203E7B0262706E30022675B /* ChatRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7AF262706E30022675B /* ChatRoomTableViewCell.swift */; };
+		0203E7B72628E5470022675B /* ChatInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7B62628E5470022675B /* ChatInputAccessoryView.xib */; };
+		0203E7BB2628E7B30022675B /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7BA2628E7B30022675B /* ChatInputAccessoryView.swift */; };
+		0203E7BF2629CA570022675B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7BE2629CA570022675B /* GoogleService-Info.plist */; };
+		0203E7CF2629CD7D0022675B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7CE2629CD7D0022675B /* SignUp.storyboard */; };
+		0203E7D2262A5C870022675B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7D1262A5C870022675B /* SignUpViewController.swift */; };
+		0203E7ED262AB9560022675B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7EC262AB9560022675B /* User.swift */; };
+		0203E7F0262AC8690022675B /* UserList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0203E7EF262AC8690022675B /* UserList.storyboard */; };
+		0203E7F3262ACAC00022675B /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E7F2262ACAC00022675B /* UserListController.swift */; };
+		0203E80D262BC8DF0022675B /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E80C262BC8DF0022675B /* ChatRoom.swift */; };
 		028DACD426264BF200AD40E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DACD326264BF200AD40E8 /* AppDelegate.swift */; };
 		028DACD626264BF200AD40E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DACD526264BF200AD40E8 /* SceneDelegate.swift */; };
-		028DACD826264BF200AD40E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DACD726264BF200AD40E8 /* ViewController.swift */; };
-		028DACDB26264BF200AD40E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028DACD926264BF200AD40E8 /* Main.storyboard */; };
 		028DACDD26264BF300AD40E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028DACDC26264BF300AD40E8 /* Assets.xcassets */; };
 		028DACE026264BF300AD40E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028DACDE26264BF300AD40E8 /* LaunchScreen.storyboard */; };
+		028DACE926264C4400AD40E8 /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028DACE826264C4400AD40E8 /* ChatList.storyboard */; };
+		028DACEC26264D0600AD40E8 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DACEB26264D0600AD40E8 /* ChatListViewController.swift */; };
+		13F0A03D3620892519FC05FA /* Pods_FreeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD61F32B893D6C04693442F /* Pods_FreeChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0203E7972626F9D20022675B /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		0203E7A12626FC8F0022675B /* ChatRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatRoom.storyboard; sourceTree = "<group>"; };
+		0203E7A82626FD230022675B /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		0203E7AB262700F80022675B /* ChatRoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomTableViewCell.xib; sourceTree = "<group>"; };
+		0203E7AF262706E30022675B /* ChatRoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableViewCell.swift; sourceTree = "<group>"; };
+		0203E7B62628E5470022675B /* ChatInputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatInputAccessoryView.xib; sourceTree = "<group>"; };
+		0203E7BA2628E7B30022675B /* ChatInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputAccessoryView.swift; sourceTree = "<group>"; };
+		0203E7BE2629CA570022675B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0203E7CE2629CD7D0022675B /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		0203E7D1262A5C870022675B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0203E7EC262AB9560022675B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0203E7EF262AC8690022675B /* UserList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserList.storyboard; sourceTree = "<group>"; };
+		0203E7F2262ACAC00022675B /* UserListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListController.swift; sourceTree = "<group>"; };
+		0203E80C262BC8DF0022675B /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		028DACD026264BF200AD40E8 /* FreeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028DACD326264BF200AD40E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028DACD526264BF200AD40E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		028DACD726264BF200AD40E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		028DACDA26264BF200AD40E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		028DACDC26264BF300AD40E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028DACDF26264BF300AD40E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028DACE126264BF300AD40E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028DACE826264C4400AD40E8 /* ChatList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatList.storyboard; sourceTree = "<group>"; };
+		028DACEB26264D0600AD40E8 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		1D92B8CD8DF3BC3B3AACB69F /* Pods-FreeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeChat.debug.xcconfig"; path = "Target Support Files/Pods-FreeChat/Pods-FreeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		96B988BA24C3A4A5B68060A3 /* Pods-FreeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeChat.release.xcconfig"; path = "Target Support Files/Pods-FreeChat/Pods-FreeChat.release.xcconfig"; sourceTree = "<group>"; };
+		DBD61F32B893D6C04693442F /* Pods_FreeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F0A03D3620892519FC05FA /* Pods_FreeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0203E7952626F9190022675B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0203E7D1262A5C870022675B /* SignUpViewController.swift */,
+				028DACEB26264D0600AD40E8 /* ChatListViewController.swift */,
+				0203E7A82626FD230022675B /* ChatRoomViewController.swift */,
+				0203E7F2262ACAC00022675B /* UserListController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0203E7962626F94A0022675B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0203E7CE2629CD7D0022675B /* SignUp.storyboard */,
+				028DACE826264C4400AD40E8 /* ChatList.storyboard */,
+				0203E7A12626FC8F0022675B /* ChatRoom.storyboard */,
+				0203E7EF262AC8690022675B /* UserList.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		0203E7B42628E4300022675B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0203E7AB262700F80022675B /* ChatRoomTableViewCell.xib */,
+				0203E7B62628E5470022675B /* ChatInputAccessoryView.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		0203E7B52628E4630022675B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0203E7B92628E7650022675B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0203E7AF262706E30022675B /* ChatRoomTableViewCell.swift */,
+				0203E7BA2628E7B30022675B /* ChatInputAccessoryView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0203E7EB262AB74D0022675B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0203E7EC262AB9560022675B /* User.swift */,
+				0203E80C262BC8DF0022675B /* ChatRoom.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		028DACC726264BF200AD40E8 = {
 			isa = PBXGroup;
 			children = (
 				028DACD226264BF200AD40E8 /* FreeChat */,
 				028DACD126264BF200AD40E8 /* Products */,
+				32B01DA378A77C1782539F55 /* Pods */,
+				E365855E5A31CF0EDA57BA48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +147,38 @@
 		028DACD226264BF200AD40E8 /* FreeChat */ = {
 			isa = PBXGroup;
 			children = (
+				0203E7EB262AB74D0022675B /* Models */,
+				0203E7B92628E7650022675B /* Views */,
+				0203E7B52628E4630022675B /* Extensions */,
+				0203E7B42628E4300022675B /* Xibs */,
+				0203E7962626F94A0022675B /* StoryBoards */,
+				0203E7952626F9190022675B /* Controllers */,
 				028DACD326264BF200AD40E8 /* AppDelegate.swift */,
 				028DACD526264BF200AD40E8 /* SceneDelegate.swift */,
-				028DACD726264BF200AD40E8 /* ViewController.swift */,
-				028DACD926264BF200AD40E8 /* Main.storyboard */,
 				028DACDC26264BF300AD40E8 /* Assets.xcassets */,
 				028DACDE26264BF300AD40E8 /* LaunchScreen.storyboard */,
 				028DACE126264BF300AD40E8 /* Info.plist */,
+				0203E7972626F9D20022675B /* UIColor-Extension.swift */,
+				0203E7BE2629CA570022675B /* GoogleService-Info.plist */,
 			);
 			path = FreeChat;
+			sourceTree = "<group>";
+		};
+		32B01DA378A77C1782539F55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D92B8CD8DF3BC3B3AACB69F /* Pods-FreeChat.debug.xcconfig */,
+				96B988BA24C3A4A5B68060A3 /* Pods-FreeChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E365855E5A31CF0EDA57BA48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD61F32B893D6C04693442F /* Pods_FreeChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 028DACE426264BF300AD40E8 /* Build configuration list for PBXNativeTarget "FreeChat" */;
 			buildPhases = (
+				64E60F397E34697FFF7D3A47 /* [CP] Check Pods Manifest.lock */,
 				028DACCC26264BF200AD40E8 /* Sources */,
 				028DACCD26264BF200AD40E8 /* Frameworks */,
 				028DACCE26264BF200AD40E8 /* Resources */,
+				863F79EFABB3604F82EC4602 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +240,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0203E7F0262AC8690022675B /* UserList.storyboard in Resources */,
+				0203E7AC262700F80022675B /* ChatRoomTableViewCell.xib in Resources */,
 				028DACE026264BF300AD40E8 /* LaunchScreen.storyboard in Resources */,
+				0203E7B72628E5470022675B /* ChatInputAccessoryView.xib in Resources */,
 				028DACDD26264BF300AD40E8 /* Assets.xcassets in Resources */,
-				028DACDB26264BF200AD40E8 /* Main.storyboard in Resources */,
+				028DACE926264C4400AD40E8 /* ChatList.storyboard in Resources */,
+				0203E7A22626FC8F0022675B /* ChatRoom.storyboard in Resources */,
+				0203E7CF2629CD7D0022675B /* SignUp.storyboard in Resources */,
+				0203E7BF2629CA570022675B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E60F397E34697FFF7D3A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863F79EFABB3604F82EC4602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeChat/Pods-FreeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeChat/Pods-FreeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeChat/Pods-FreeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		028DACCC26264BF200AD40E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				028DACD826264BF200AD40E8 /* ViewController.swift in Sources */,
+				0203E7BB2628E7B30022675B /* ChatInputAccessoryView.swift in Sources */,
 				028DACD426264BF200AD40E8 /* AppDelegate.swift in Sources */,
+				0203E7D2262A5C870022675B /* SignUpViewController.swift in Sources */,
+				0203E7982626F9D20022675B /* UIColor-Extension.swift in Sources */,
+				0203E7B0262706E30022675B /* ChatRoomTableViewCell.swift in Sources */,
+				0203E7ED262AB9560022675B /* User.swift in Sources */,
+				0203E7F3262ACAC00022675B /* UserListController.swift in Sources */,
+				0203E7A92626FD230022675B /* ChatRoomViewController.swift in Sources */,
+				028DACEC26264D0600AD40E8 /* ChatListViewController.swift in Sources */,
 				028DACD626264BF200AD40E8 /* SceneDelegate.swift in Sources */,
+				0203E80D262BC8DF0022675B /* ChatRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		028DACD926264BF200AD40E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				028DACDA26264BF200AD40E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		028DACDE26264BF300AD40E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +447,7 @@
 		};
 		028DACE526264BF300AD40E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D92B8CD8DF3BC3B3AACB69F /* Pods-FreeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +467,7 @@
 		};
 		028DACE626264BF300AD40E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B988BA24C3A4A5B68060A3 /* Pods-FreeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

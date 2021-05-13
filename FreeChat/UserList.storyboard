@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ogU-Gw-OfB">
+            <objects>
+                <navigationController id="bw8-e2-0R4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JDQ-ti-opd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="688-B4-kjv" kind="relationship" relationship="rootViewController" id="UVR-mZ-wDr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E3h-zH-48W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1459" y="90"/>
+        </scene>
+        <!--User List View Controller-->
+        <scene sceneID="hcb-7I-ZrH">
+            <objects>
+                <viewController storyboardIdentifier="UserListViewController" id="688-B4-kjv" customClass="UserListViewController" customModule="FreeChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dbR-W9-b71">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Plh-X4-X6S">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellId" id="8MQ-47-dAi" customClass="UserListTableViewCell" customModule="FreeChat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8MQ-47-dAi" id="Fk6-EV-StA">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="144-zJ-3de">
+                                                    <rect key="frame" x="10" y="10" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="144-zJ-3de" secondAttribute="height" multiplier="1:1" id="F71-R7-h7k"/>
+                                                        <constraint firstAttribute="width" constant="50" id="oYA-fP-Y6K"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ユーザーネーム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2m-n1-i2m">
+                                                    <rect key="frame" x="75" y="24.5" width="121.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="X2m-n1-i2m" firstAttribute="centerY" secondItem="Fk6-EV-StA" secondAttribute="centerY" id="a4H-Dd-oJ5"/>
+                                                <constraint firstItem="X2m-n1-i2m" firstAttribute="leading" secondItem="144-zJ-3de" secondAttribute="trailing" constant="15" id="dy1-Pd-euR"/>
+                                                <constraint firstItem="144-zJ-3de" firstAttribute="leading" secondItem="Fk6-EV-StA" secondAttribute="leading" constant="10" id="ks1-5F-yMJ"/>
+                                                <constraint firstItem="144-zJ-3de" firstAttribute="centerY" secondItem="Fk6-EV-StA" secondAttribute="centerY" id="ttb-Kn-qkv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="userImageView" destination="144-zJ-3de" id="JzA-tL-vbN"/>
+                                            <outlet property="usernameLabel" destination="X2m-n1-i2m" id="U0K-gJ-cZn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LJq-Fj-ber"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Plh-X4-X6S" firstAttribute="leading" secondItem="LJq-Fj-ber" secondAttribute="leading" id="Q2w-M5-dU5"/>
+                            <constraint firstItem="Plh-X4-X6S" firstAttribute="top" secondItem="LJq-Fj-ber" secondAttribute="top" id="e2a-MY-zmp"/>
+                            <constraint firstItem="LJq-Fj-ber" firstAttribute="bottom" secondItem="Plh-X4-X6S" secondAttribute="bottom" id="iJN-Yy-eIs"/>
+                            <constraint firstItem="LJq-Fj-ber" firstAttribute="trailing" secondItem="Plh-X4-X6S" secondAttribute="trailing" id="voo-iN-9WR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PL1-tj-h6J">
+                        <barButtonItem key="leftBarButtonItem" title="閉じる" id="HnB-Rx-bcH">
+                            <connections>
+                                <action selector="tappedCloseButton:" destination="688-B4-kjv" id="les-rs-y0l"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="eh0-be-hlz">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ZhS-Wv-cME">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="トークを開始">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="startChatButton" destination="ZhS-Wv-cME" id="cYC-px-Q1V"/>
+                        <outlet property="userListTableView" destination="Plh-X4-X6S" id="J42-9S-SXp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C8J-Ul-zVd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-536.231884057971" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
